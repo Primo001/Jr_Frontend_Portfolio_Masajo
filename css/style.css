@@ -112,6 +112,11 @@ body {
   height: 35rem;
   width: auto;
 }
+.section-recent-projects .project-container img.rhemit-logo {
+  margin-top: 2rem;
+  height: 5rem;
+  width: auto;
+}
 
 .nav-links {
   padding-inline: 8rem;
