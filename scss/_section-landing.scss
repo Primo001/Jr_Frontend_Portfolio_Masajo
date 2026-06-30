@@ -1,0 +1,43 @@
+.section-landing {
+  padding-block: 8rem;
+  padding-inline: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  gap: 5rem;
+
+  sub {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 70rem;
+    line-height: 3rem;
+    font-family: "Inter";
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  p {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    color: #f8fafc;
+    line-height: 2.5rem;
+    max-width: 75rem;
+    text-align: center;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

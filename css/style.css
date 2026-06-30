@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-color: #5244ff;
+  color: #f8fafc;
+}
+
+.section-landing {
+  padding-block: 8rem;
+  padding-inline: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  gap: 5rem;
+}
+.section-landing sub {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.section-landing h1 {
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 70rem;
+  line-height: 3rem;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.section-landing p {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  color: #f8fafc;
+  line-height: 2.5rem;
+  max-width: 75rem;
+  text-align: center;
+}
+.section-landing .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-about-me {
+  padding-inline: 8rem;
+  padding-block: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "inter";
+  gap: 10rem;
+  background-color: #233a6e;
+}
+.section-about-me .section-content {
+  max-width: 45rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.section-about-me .section-content h2 {
+  max-width: 15rem;
+  font-size: 2rem;
+}
+.section-about-me .section-content h4 {
+  margin: 0;
+}
+.section-about-me .about-us-info {
+  max-width: 55rem;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+.section-recent-projects {
+  padding-inline: 8rem;
+  padding-block: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+}
+.section-recent-projects .section-title {
+  font-family: "Inter";
+  font-size: 1.3rem;
+  text-align: center;
+}
+.section-recent-projects .project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.section-recent-projects .project-container p {
+  color: #f8fafc;
+  font-size: 1.2rem;
+  max-width: 70rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+.section-recent-projects .project-container img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  width: auto;
+}
+
+.nav-links {
+  padding-inline: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.nav-links ul,
+.nav-links li,
+.nav-links a {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-weight: 600;
+  list-style-type: none;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+.nav-links ul:hover,
+.nav-links li:hover,
+.nav-links a:hover {
+  transition: all ease-in-out 0.5s;
+  color: #2c2c2c;
+}

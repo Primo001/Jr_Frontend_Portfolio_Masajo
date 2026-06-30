@@ -1,0 +1,41 @@
+.section-recent-projects {
+  padding-inline: 8rem;
+  padding-block: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+
+  .section-title {
+    font-family: "Inter";
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+
+    p {
+      color: #f8fafc;
+      font-size: 1.2rem;
+      max-width: 70rem;
+      line-height: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    img {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 35rem;
+      width: auto;
+    }
+  }
+}

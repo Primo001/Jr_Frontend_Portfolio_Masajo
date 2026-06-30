@@ -1,0 +1,33 @@
+.section-about-me {
+  padding-inline: 8rem;
+  padding-block: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "inter";
+  gap: 10rem;
+  background-color: #233a6e;
+
+  .section-content {
+    max-width: 45rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+    h2 {
+      max-width: 15rem;
+      font-size: 2rem;
+    }
+
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .about-us-info {
+    max-width: 55rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+}

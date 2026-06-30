@@ -1,0 +1,24 @@
+.nav-links {
+  padding-inline: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  ul,
+  li,
+  a {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style-type: none;
+    text-decoration: none;
+    color: #f8f8f8;
+
+    &:hover {
+      transition: all ease-in-out 0.5s;
+
+      color: #2c2c2c;
+    }
+  }
+}

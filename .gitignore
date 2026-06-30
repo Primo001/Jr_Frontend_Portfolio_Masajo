@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+
+# environment files
+.env
+
+#gulpfile
+gulpfile
+
+#lock jason
+package-lock.json
+
+#lock jason
+package.json
