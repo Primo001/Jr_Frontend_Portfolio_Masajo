@@ -1,0 +1,33 @@
+.section-software {
+  padding-inline: 8rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .software-logos {
+      color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 6rem;
+      gap: 4rem;
+      margin-top: -8rem;
+
+      a {
+        color: #ffffff;
+        &:hover {
+          transition: all ease-in-out 0.5s;
+          color: #2c2c2c;
+        }
+      }
+    }
+  }
+}

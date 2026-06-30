@@ -112,10 +112,36 @@ body {
   height: 35rem;
   width: auto;
 }
-.section-recent-projects .project-container img.rhemit-logo {
-  margin-top: 2rem;
-  height: 5rem;
-  width: auto;
+
+.section-software {
+  padding-inline: 8rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+.section-software .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-software .section-content .software-logos {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  gap: 4rem;
+  margin-top: -8rem;
+}
+.section-software .section-content .software-logos a {
+  color: #ffffff;
+}
+.section-software .section-content .software-logos a:hover {
+  transition: all ease-in-out 0.5s;
+  color: #2c2c2c;
 }
 
 .nav-links {
